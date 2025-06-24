@@ -10,3 +10,9 @@ class Item(BaseModel):
     price: float
     is_offer: bool = False
     password: str = "Don't show this"
+
+
+class ItemResponse(BaseModel):
+    name: str
+    price: float
+    is_offer: bool = False
